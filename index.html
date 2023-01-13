@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PHP Currency Converter</title>
+</head>
+<body>
+    <div class="main">
+            <br>
+            <h1>PHILIPPINE PESO CALCULATOR</h1>
+            <br>
+            <p>This simple site converts Philippine Peso to its value in other countries' currencies.</p>
+            <br>
+            <p><b>Currency (in PHP):</b></p>
+            <input type="number" id="firstNumber" class="numberContainer" name="numberName">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="convertUsd();">USD</button> <b>conversion rate: 1 PHP = 54.87 USD</b>
+            <br>
+            <br>
+            <button onclick="convertJpy();">JPY</button> <b>conversion rate: 1 PHP = 2.42 JPY</b>
+            <br>
+            <br>
+            <button onclick="convertMxn();">MXN</button> <b>conversion rate: 1 PHP = 0.35 MXN</b>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <b>Result (in <b id="coin">CURRENCY</b>):</b>
+            <br>
+
+                <div class="result">
+                    <h1 id="results"></h1>
+                </div>
+
+
+    </div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
